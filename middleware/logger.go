@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"log"
 
-	tele "gopkg.in/telebot.v3"
+	tele "github.com/budinokpl/telebot"
 )
 
 func Logger(logger ...*log.Logger) tele.MiddlewareFunc {

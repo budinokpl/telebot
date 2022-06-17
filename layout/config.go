@@ -6,7 +6,8 @@ import (
 
 	"github.com/goccy/go-yaml"
 	"github.com/spf13/cast"
-	tele "gopkg.in/telebot.v3"
+
+	tele "github.com/budinokpl/telebot"
 )
 
 // Config represents typed map interface related to the "config" section in layout.

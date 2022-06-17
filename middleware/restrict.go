@@ -1,6 +1,6 @@
 package middleware
 
-import tele "gopkg.in/telebot.v3"
+import tele "github.com/budinokpl/telebot"
 
 type RestrictConfig struct {
 	Chats   []int64
